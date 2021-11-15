@@ -16,7 +16,7 @@ You should pull the project into your local workspace, and run the Ikovid shortc
 You should as well dispose of any version of python. 
 To visualize the ontology in protege :
     1-install protege software via https://protege.stanford.edu/
-    2-open the ontology.owl file in the software.
+    2-open the PROJET.owl file in the software.
 In the displayed interface you can navigate and explore the app.
 
 # Credits
