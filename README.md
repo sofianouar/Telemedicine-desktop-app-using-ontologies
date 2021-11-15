@@ -19,10 +19,10 @@ To visualize the ontology in protege :
     2-open the ontology.owl file in the software.
 In the displayed interface you can navigate and explore the app.
 
-#Credits
+# Credits
 My teammate AISSI Med Salim saissi1701@gmail.com
 
-#More information
+# More information
 For further information, suggestion or reuse of code, please email : soffianouar@gmail.com / saissi1701@gmail.com
 
 //made on july 2020
