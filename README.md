@@ -16,15 +16,17 @@ aide.txt : a file describing the ontology structure
 H.xlsx : contains mostly all the name of hospitals of Algeria
 Medecin.xlsx : contains names of the doctors connected (have already registered) to the app 
 Projet.owl / Projet1.owl : are files generated containing the ontology, they're to run in protege
-for the executable app please check Cde>App.py or download at : https://drive.google.com/file/d/1AN6UzI5df6FdnMpphOw2unhlyDWj9pqH/view?usp=sharing
-for the source code : 
 
 # How to use the project
-You should pull the project into your local workspace, and run the Ikovid shortcut. 
 You should as well dispose of any version of python. 
-To visualize the ontology in protege :
-    1-install protege software via https://protege.stanford.edu/
-    2-open the PROJET.owl file in the software.
+Method 1 : please check PROJECT CODE WS>App.py or download at : https://drive.google.com/file/d/1AN6UzI5df6FdnMpphOw2unhlyDWj9pqH/view?usp=sharing
+    Run the Ikovid shortcut. 
+    To visualize the ontology in protege :
+        1-install protege software via https://protege.stanford.edu/
+        2-open the PROJET.owl file in the software.
+        
+Method 2 : for the source code : download at 
+
 In the displayed interface you can navigate and explore the app.
 
 # Credits
