@@ -11,6 +11,12 @@ WE developed the ontology used from scratch with RDF model using python and we v
 As we lack knowledge in the medicine domain, the results of the covid test may not be as precise as possible. 
 We were limited with time while implementing the project for the university, so we could't implement all the features we wanted to, such as : QRcode for a rendez-vous, a better ways to communicate with doctors (a dedicated message area as or redirection to google email) + scheduling consultations via video calls.
 
+# About the project files
+aide.txt : a file describing the ontology structure
+H.xlsx : contains mostly all the name of hospitals of Algeria
+Medecin.xlsx : contains names of the doctors connected (have already registered) to the app 
+Projet.owl / Projet1.owl : are files generated containing the ontology, they're to run in protege
+
 # How to use the project
 You should pull the project into your local workspace, and run the Ikovid shortcut. 
 You should as well dispose of any version of python. 
