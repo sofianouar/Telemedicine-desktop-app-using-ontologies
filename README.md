@@ -11,7 +11,7 @@ WE developed the ontology used from scratch with RDF model using python and we v
 As we lack knowledge in the medicine domain, the results of the covid test may not be as precise as possible. 
 We were limited with time while implementing the project for the university, so we could't implement all the features we wanted to, such as : QRcode for a rendez-vous, a better ways to communicate with doctors (a dedicated message area as or redirection to google email) + scheduling consultations via video calls.
 
-#How to use the project
+# How to use the project
 You should pull the project into your local workspace, and run the Ikovid shortcut. 
 You should as well dispose of any version of python. 
 To visualize the ontology in protege :
