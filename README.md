@@ -1,4 +1,4 @@
-# A telemidicine desktop app using RDF and ontologies.
+# A telemedicine desktop app using RDF and ontologies.
 This semantic ontology desktop app was developed to help connecting people and doctors during the pandemic of COVID-19. 
 The user could rather do an online covid test (could be improved) and receive an orientation at the end, or choose to consult a doctor by selecting their disease. 
 Pregnant women are also taken in consideration.
