@@ -1,0 +1,91 @@
+AIDE:
+ LES CLASSES:
+      -Personne (Thing) : ns2          : Personne
+
+                          DataProperty: * ns2:Nom          [str]
+                                        * ns2:Prenom       [str]
+                                        * ns2:Sexe         [str]
+                                        * ns2:Age          [int]
+                                        * ns2:NumTel       [int]
+                                        * ns2:jrsSympt     [str]
+                                        * ns2:obesite      [str]
+
+      -Patient (Personne):              ns2: Patient
+
+      _Homme (Patient)  :              ns2: Homme
+
+      -Femme (Patient) :               ns2: Femme
+
+      -FemmeEnceinte (Femme) :          ns2:FemmeEnceinte
+
+      -MaladeChronique (Patient):      ns2:MaladeChronique
+
+      -pCovid_grave (Patient):          ns2:pCovid_grave
+
+      -pCovid_Depistage (Patient):      ns2:pCovid_Depistage
+
+      -Medecin (Personne): ns2:Medecin
+
+                                         DataProperty:  * ns2: NomMed             [str]
+                                                        * ns2: specialité         [str]
+                                                        * ns2: domaine            [str]
+                                                        * ns2: adressemed         [str]
+                                                        * ns2: numtelmed          [int]
+                                                        * ns2: mdp                [str]
+
+      -Symptomes (Thing):                 ns2:Symptomes
+
+      -SymptomesGrave (Symptomes):        ns2:SymptomesGrave
+
+      -SymptomesFrequents (Symptomes):    ns2:SymptomesFrequents
+
+      -Emplacement (Thing):               ns2:Emplacement
+
+      -Wilaya (Emplacement):              ns2:Wilaya
+
+      -WilayaAtteinte (Wilaya):           ns2:WilayaAtteinte
+
+      -MaladieChroniques (Thing):         ns2:MaladieChroniques
+
+                                          DataProperty: * ns2: typemaladie  [str]
+
+      -Traitement (Thing):                ns2:Traitement
+
+      -hopital (Thing):                   ns2:hopital
+
+      -Consultation (Thing):              ns2:Consultation
+                                          DataProperty:  *ns2:DateC  [str]
+
+
+
+
+ LES RELATIONS:
+   -ns2:a_Pour_Maladies       (Patient >> MaladieChroniques)
+
+   -ns2:a_Symptome            (Patient >> Symptomes)
+
+   -ns2:affecte               (MaladieChroniques >> Patient)
+
+   -ns2:prend_traitement      (Patient >> Traitement)
+
+   -ns2:personne_atteinte     (Symptomes >> Patient)
+
+   -ns2:habite_a              (Personne >> Wilaya)
+
+   -ns2:a_pour_habitant       (Wilaya >> Personne)
+
+   -ns2:a_pris_rdv            (Patient >> Medecin)
+
+   -ns2:est_soliciter_par     (Medecin >> Patient)
+
+   -ns2:practicien            (Medecin >> Consultation )
+
+   -ns2consultant             (Patient >> Consultation)
+
+   -ns2:se_situe              (hopital >> Wilaya)
+
+   -ns2:contient_hopital      (Wilaya >> hopital)
+
+
+
+
