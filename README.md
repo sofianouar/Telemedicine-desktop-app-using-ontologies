@@ -20,12 +20,12 @@ Projet.owl / Projet1.owl : are files generated containing the ontology, they're 
 # How to use the project
 You should as well dispose of any version of python. 
 Method 1 : please check PROJECT CODE WS>App.py or download at : https://drive.google.com/file/d/1AN6UzI5df6FdnMpphOw2unhlyDWj9pqH/view?usp=sharing
-    Run the Ikovid shortcut and don't forget to put it at the file 'PROJECT CODE WS' some ressources are needed.
+    Run the Ikovid shortcut and don't forget to put it at the file 'executabale app' some ressources are needed.
     To visualize the ontology in protege :
         1-install protege software via https://protege.stanford.edu/
         2-open the PROJET.owl file generated in the software.
         
-Method 2 : for the source code : download at 
+Method 2 : for the source code download "code version" and run "scriptLASTfinal"
 
 In the displayed interface you can navigate and explore the app.
 
